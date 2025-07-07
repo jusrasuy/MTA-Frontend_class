@@ -1,5 +1,5 @@
 *{
-    background-color: black;
+    background-color: green;
 }
 p#logo-text{
     color: red; 
@@ -12,6 +12,7 @@ p#logo-text{
 img.logo{
     height: 100px; width: 100px;
     border-radius: 50%;
+
 }
 h1.logo{
     display: flex;
@@ -20,7 +21,7 @@ h1.logo{
 .head{
     display: flex;
     flex-direction: row;
-    background-color: antiquewhite;
+    background-color: black;
     margin-top: 10px;
 
 }
@@ -31,8 +32,73 @@ h1.logo{
     align-self: center;
     margin-left: 50%;
     white-space: nowrap;
+    list-style: none;
+
 }
 
 ol.nav-bar > li > a{
     text-decoration: none;
+    color: white;
+}
+ol.nav-bar > li > a:hover{
+    text-decoration: wavy;
+    color: wheat;
+}
+.search-bar {
+    align-self: center;
+    margin-left: 10%;
+
+}
+
+input#search-bar-input{
+    background-color: aliceblue;
+    border-radius: 1rem;
+    max-width: 60%;
+
+}
+
+.home{
+    background-color: darkslategray;
+    color: white;
+    align-self: center;
+    border-radius: 1rem;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px;
+
+}
+.left > h1.hero-sec {
+    font-weight: large;
+    font-size: xx-large;
+}
+button.hero-sec-1,button.hero-sec-2 {
+    border-radius: 20px;
+    margin-top: 20%;
+    margin-right: 1rem;
+    padding: 10px;
+}
+
+button.hero-sec-1,button.hero-sec-2:hover{
+    border-radius: 20px;
+    margin-top: 20%;
+    margin-right: 1rem;
+    padding: 10px;
+}
+.about{
+    width: ;
+}
+
+.footer>h4 {
+    background-color: blue;
+    color: white
+    justify-self; cent
+    text-align: center;
+    text-align:center;
+    font-weight: 100;
+    border-radius: 20px;
 }
