@@ -1,5 +1,5 @@
 *{
-    background-color: green;
+    background-color: blue;
 }
 p#logo-text{
     color: red; 
@@ -89,16 +89,103 @@ button.hero-sec-1,button.hero-sec-2:hover{
     margin-right: 1rem;
     padding: 10px;
 }
-.about{
-    width: ;
+
+
+.contact-div{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    margin: 20px;
+}
+.contact-right{
+    border-radius: 0.5rem;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    width: 50%;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+      border-radius: 3px;
+    margin-top: 7rem;
 }
 
+img.contact-right{
+    border-radius: 7px;
+    width: 400px;
+    height: 300px;
+    margin-right: 1rem;
+    top: 0;
+    right: 100px;
+    left: 1000px;
+
+}
+
+fieldset.contact{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    align-content: center;
+    justify-self: center;
+    padding-top: 4rem;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    background-color: antiquewhite;
+}
+h1.contact{
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS';
+    color: antiquewhite;
+    background-color: ;
+}
+
+input#contact-name, input#contact-email, input#contact-feedback{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+button.contact{
+    width: 80px;
+    height: 20px;
+    margin: 10px;
+    align-self: center;
+    border-radius: 0.3rem;
+}
+
+.contact-footer{
+    background-color: antiquewhite;
+    max-width: 50%;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+
+
 .footer>h4 {
-    background-color: blue;
+    background-color: rgb(149, 149, 150);
     color: white
     justify-self; cent
-    text-align: center;
+    text-align: cen
     text-align:center;
     font-weight: 100;
-    border-radius: 20px;
+    border-radius: 10px;
 }
