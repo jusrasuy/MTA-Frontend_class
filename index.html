@@ -5,126 +5,74 @@
     <meta name="viewport" content="width=device-width", initial-scale="1,0">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="stylesheet" href="style.css">
-    <title>Our Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="" class="css">
+
+<title>Our Website</title>
 </head>
 <body>
-    <div class="head">
-        <h1 class="logo">
-            <img src="/AQSA.jpg" alt="AQSA" class="logo" width="1000" height="600">
-            <p id="logo-text">Rass Website</p>
-        </h1>
-        <div class="nav-bar">
-            <ol class="nav-bar">
-                <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about us</a></li>
-                <li><a href="contact.html">contact us</a></li>
-            </ol>
-        </div>
-       <div class="searchbar">
-        <label for="search-bar">
-            <input type="search" name="search" id="search-bar-input" placeholder="search here">
-        </label>
-       </div>
+
+<nav class="navbar navbar-expand-lg bg-body-primary">
+    <a class="navbar-brand" href="#">
+      <img src="/fridge.jpg" alt="Bootstrap" width="30" height="24" class="logo">
+    </a>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Raas</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0" >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Enabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
-    <section class="home">
-        <div class="home">
-            <div class="left">
-                <h1 class="hero-sec">
-                    Get to know more about Raas
-                </h1>
-                <P class="hero-sec">
-                    The man in this picture is a repairer and a great man
-                </P>
-                    <div class="button-hero-sec">
-                        <button class="hero-sec">Learn More</button>
-                        <button class="hero-sec">More about Raas</button>
-                    </div>
-            </div>
-            <div class="right">
-                <img src="fridge.jpg" alt="fridge" class="right">
-    
-            </div>
+  </div>
+</nav>
+    <section class="bg-light text-center p-8 pt-4" style="color: blue;">
+        <div class="container container-hero-sec row mx-auto" >
+            <div class="container-hero-lt">
+            <h1 class="display-4">Welcome to Raas</h1>
+            <p>Many people struggle to find reliable repair technicians quickly, especially for 
+                urgent appliance issues. MO Repair Services makes it easy for users to book a 
+                trusted repair expert from their phone or computer, reducing stress and downtime</p>
+            <p class="lead">We help you repair amazingly with precision</p>
+        </div>
+        <div class="container-hero-rt">
+            <img src="/fridge.jpg" alt="fridge">
+
+        </div>
         </div>
     </section>
 
-    <section class="about">
-        <div class="about">
-            <h1 class="about" href:'about.html'>about us</h1>
-            <div class="about-1">
-            <h1 class="about-1">
-                Get to know more about Raas
-            </h1>
-            <p class="about-1">
-                Raas and fridge man  
-            </p>
-            </div>
-            <button class="about-1">Get to know more about us</button>
-       
-         </div>
-          <div class="about-2">
-            <div class="about-2-grid-1">
-                
-                
-            </div>
-            <div class="about-2-grid-2">
-
-            </div>
-            <div class="about-2-grid-3">
-
-            </div>
-            <div class="about-2-grid-4">
-
-            </div>
-
-        </div>
-
-    
-    </div>
-</section>
-    
-<section class="contact">
-    <div class="contact-div-all">
-        <div class="contact-div">
-            <div class="contact-left">
-                <fieldset class="contact">
-                    <h1 class="contact">Contact Us</h1>
-                    <form action="submit" class="contact">
-                        <input type="text" name="name" id="contact-name" required>
-                        <input type="email" name="email" id="contact-email" required>
-                        <input type="text" name="feedback" id="contact-feedback" required>
-                        <button type="submit" class="contact">submit</button>
-                    </form:>
-                </fieldset>
-            </div>
-            <div class="contact-right">
-                <img src="fridge.jpg" alt="fridge" class="contact-right">
-            </div>
-            <div class="contact-footer">
-                <div class="footer-div"></div>
-                <div class="call-us">
-                    <h1 class="location">Location</h1>  
-                </div>
-                <div class="hours">
-                    <h1 class="hours">Hours</h1>
-                </div>
-
-                </div>
-        </div>
-    </div>
-</section>
-    <footer>
-        <div class="footer">
-                <h4>&copy;2025 Rass</h4>
-                <div class="logo-footer">
-                
-                </div>
-                <div class="links-footer">
-                </div>
-                <div class="socials-footer">
-
-                </div>
-        </div>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
 </body>
 </html>
