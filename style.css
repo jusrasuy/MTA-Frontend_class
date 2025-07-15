@@ -1,30 +1,21 @@
-@import url();
-  .logo{
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-  }
-  .bg-body-primary{
-    background-color: wheat;
-  }
 
-  .bg-body{
-    color: wheat;
-  }
-
-.navbar-brand{
-    margin-right: 2%;
-}
-div#navbarSupportedContent{
-    align-self: right;
-}
-section.container-hero-sec{
-    background-image: url(/fridge.jpg);
-}
-a.btn.btn-primary.btn-lg{
-    padding: ;
+.logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
 }
 
-.container.container-hero-sec{
-    align-self: center;
+.navbar{
+  background-color: black;
+
+}
+.btn{
+  background-color: yellow;
+  border-radius: 1rem;
+}
+
+.form-control{
+  border-radius: 1rem;
 }

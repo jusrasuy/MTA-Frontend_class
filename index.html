@@ -1,78 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1,0">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-<link rel="stylesheet" href="" class="css">
-
-<title>Our Website</title>
+    <link rel="stylesheet" href="style.css">
+<title>Raas Website</title>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-primary">
-    <a class="navbar-brand" href="#">
-      <img src="/fridge.jpg" alt="Bootstrap" width="30" height="24" class="logo">
-    </a>
+  <!--Nav-bar -->
+<nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Raas</a>
+    <img src="/fridge.jpg" alt="raas-logo" class="logo" width="100px" height="100px">
+    <a class="navbar-brand text-white" href="#">Raas Auto</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon bg-body-tertiary"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0" >
+    <div class="collapse navbar-collapse mx-auto" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link text-white" href="#">About Us</a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link text-white" href="#">Our Service</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our Products
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Cooker</a></li>
+            <li><a class="dropdown-item" href="#">Fridge</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Washing Machine</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Enabled</a>
+          <a class="nav-link disabled" aria-disabled="true">Promo</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn" type="submit">Enter Your Search</button>
       </form>
     </div>
   </div>
 </nav>
-    <section class="bg-light text-center p-8 pt-4" style="color: blue;">
-        <div class="container container-hero-sec row mx-auto" >
-            <div class="container-hero-lt">
-            <h1 class="display-4">Welcome to Raas</h1>
-            <p>Many people struggle to find reliable repair technicians quickly, especially for 
-                urgent appliance issues. MO Repair Services makes it easy for users to book a 
-                trusted repair expert from their phone or computer, reducing stress and downtime</p>
-            <p class="lead">We help you repair amazingly with precision</p>
-        </div>
-        <div class="container-hero-rt">
-            <img src="/fridge.jpg" alt="fridge">
+
+<!--Hero Section-->
+<div class="container-fluid mx-auto" style="background-image: url(/AQSA.jpg);">
+  <!-- Content here -->
+
+        <div class="container container-fluid mx-auto">
+        <div class="row">
+          <div class="col-lg-8 my-8">
+            <div class="my-5 text-black">
+              <h1>Get To Know Us Better</h1>
+              <p>We are a group of innovative repairer from all over Lagos</p>
+
+            </div>
+
+
+
+            <button class="btn btn-learn my-2">Learn About US</button>
+            
+          </div>
+          <div class="col-lg-4 my-1";>
+            <img src="/Repair.jpg" alt="Repair" width=300px height=300px;>
+          </div>
 
         </div>
-        </div>
-    </section>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
-</body>
+</div>
+
+      <div class="container-fluid container-h1 text-bg-secondary p-3 rounded mx-auto my-2">
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <br> Sint, minus repudiandae a ullam sequi vel eligendi exercitationem saepe laboriosam accusamus placeat, ea excepturi est ipsum nesciunt distinctio, neque culpa cum.</h1>
+      </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
 </html>
